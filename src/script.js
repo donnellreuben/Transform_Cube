@@ -21,10 +21,13 @@ scene.add(mesh)
 mesh.position.set(0.7, -0.6, 1)
 
 // Scale
-
+// mesh.scale.x = 2
+// mesh.scale.y = 0.5
+// mesh.scale.z = 0.5
+mesh.scale.set(2, 0.5, 0.5)
 
 // Axes helper (helps position objects in space)
-const axesHelper = new THREE.AxesHelper(2)
+const axesHelper = new THREE.AxesHelper(1)
 scene.add(axesHelper)
 
 /**
