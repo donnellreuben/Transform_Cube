@@ -26,6 +26,11 @@ mesh.position.set(0.7, -0.6, 1)
 // mesh.scale.z = 0.5
 mesh.scale.set(2, 0.5, 0.5)
 
+// Rotation 
+// mesh.rotation.y = 3.14159
+mesh.rotation.x = Math.PI * 0.25
+mesh.rotation.y = Math.PI * 0.25
+
 // Axes helper (helps position objects in space)
 const axesHelper = new THREE.AxesHelper(1)
 scene.add(axesHelper)
